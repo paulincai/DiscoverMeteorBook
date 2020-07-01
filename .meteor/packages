@@ -28,7 +28,6 @@ sacha:spin
 tmeasday:crypto-base
 matteodem:keybindings
 dburles:collection-helpers
-aldeed:simple-schema
 aslagle:reactive-table
 matb33:collection-hooks
 percolatestudio:percolatestudio-migrations
@@ -71,5 +70,4 @@ react-meteor-data
 jsx
 react-template-helper
 
-utilities:meteor-griddle
 # static-html

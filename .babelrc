@@ -1,0 +1,20 @@
+{
+  "plugins": [
+    "transform-class-properties",
+    "@babel/plugin-proposal-optional-chaining",
+    ["@babel/plugin-transform-runtime",
+      {
+        "regenerator": true
+      }
+    ]
+  ],
+  "presets": [
+    ["@babel/env",
+      {
+        "targets": {
+          "node": 12
+        }
+      }
+    ]
+  ]
+}

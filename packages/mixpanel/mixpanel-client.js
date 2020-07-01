@@ -8,4 +8,4 @@
     'track_forms','register','register_once','unregister','identify','alias','name_tag','set_config',
     'people.set','people.set_once','people.increment','people.track_charge','people.append'];
     for(e=0;e<h.length;e++)d(g,h[e]);a._i.push([b,c,f])};a.__SV=1.2;})(document,window.mixpanel||[]);
-mixpanel = window.mixpanel;
+const mixpanel = window.mixpanel

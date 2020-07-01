@@ -1,12 +1,13 @@
-var MailChimpAPI = Npm.require('mailchimp').MailChimpAPI;
+const MailChimpAPI = Npm.require('mailchimp').MailChimpAPI
 
-var apiKey = '5671675ec132e2df5fd7ab3d88afa3d8-us2';
-
-try { 
-  MailChimpAPIObject = new MailChimpAPI(apiKey, { version : '1.3', secure : false });
+const apiKey = '5671675ec132e2df5fd7ab3d88afa3d8-us2'
+try {
+  MailChimpAPIObject = new MailChimpAPI(apiKey, { version: '1.3', secure: false })
 } catch (error) {
-  console.log(error.message);
+  console.log(error.message)
 }
+
+// export { MailChimpAPIObject }
 
 // list ID: ed0fb4ac61
 

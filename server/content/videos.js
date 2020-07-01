@@ -1,13 +1,11 @@
-videosContent = [
+const videosContent = [
   {
     code: '65209721',
     level: 'full',
     title: 'Telescope\'s Popularity Rankings',
     slug: 'popularity-rankings',
     type: 'Case Study',
-    description:  "A look at how \
-                  [Telescope](http://telesc.pe) implements popularity rankings\
-                  and scoring.",
+    description: 'A look at how [Telescope](http://telesc.pe) implements popularity rankings and scoring.',
     resources: [
       {
         title: 'Telescope Homepage',
@@ -18,16 +16,14 @@ videosContent = [
         url: 'http://github.com/SachaG/Telescope'
       }
     ]
-  },  
+  },
   {
     code: '65201697',
     level: 'full',
     title: 'Introducing PiJS',
     slug: 'introducing-pijs',
     type: 'Case Study',
-    description:  "Thomas Sarlandie talks about [PiJS](http://pijs.io), a project \
-                  that uses Meteor to make syncing code on your Raspberry Pi easier, then shows \
-                  us around the app.",
+    description: 'Thomas Sarlandie talks about [PiJS](http://pijs.io), a project that uses Meteor to make syncing code on your Raspberry Pi easier, then shows us around the app.',
     resources: [
       {
         title: 'PiJS',
@@ -45,7 +41,7 @@ videosContent = [
     title: 'Sending Email',
     slug: 'sending-email',
     type: 'Screencast',
-    description:  "Evented Mind's Chris Mather shows how to use Mailgun to send email in your Meteor app.",
+    description: "Evented Mind's Chris Mather shows how to use Mailgun to send email in your Meteor app.",
     resources: [
       {
         title: 'Code on GitHub',
@@ -67,7 +63,7 @@ videosContent = [
     title: 'Using Mixpanel',
     slug: 'using-mixpanel',
     type: 'Screencast',
-    description:  "Evented Mind's Chris Mather shows us how to integrate Mixpanel to your Meteor app to track users and events. ",
+    description: "Evented Mind's Chris Mather shows us how to integrate Mixpanel to your Meteor app to track users and events. ",
     resources: [
       {
         title: 'Code on GitHub',
@@ -89,7 +85,7 @@ videosContent = [
     title: 'Using IronRouter',
     slug: 'using-ironrouter',
     type: 'Screencast',
-    description:  "Using IronRouter instead of the regular Router in Microscope.",
+    description: 'Using IronRouter instead of the regular Router in Microscope.',
     resources: [
       {
         title: 'Code on GitHub',
@@ -107,7 +103,7 @@ videosContent = [
     title: 'Using Appcache',
     slug: 'using-appcache',
     type: 'Screencast',
-    description:  "Andrew Wilcox gives a tour of the Appcache package.",
+    description: 'Andrew Wilcox gives a tour of the Appcache package.',
     resources: [
       {
         title: 'Appcache Package',
@@ -121,7 +117,7 @@ videosContent = [
     title: 'Atmosphere Packages',
     slug: 'atmosphere-packages',
     type: 'Screencast',
-    description:  "Tom Coleman gives a tour of the most useful Atmosphere packages.",
+    description: 'Tom Coleman gives a tour of the most useful Atmosphere packages.',
     resources: [
       {
         title: 'Code on GitHub',
@@ -139,7 +135,7 @@ videosContent = [
     title: 'Using Third-Party JavaScript',
     slug: 'third-party-javascript',
     type: 'Screencast',
-    description:  "[Evented Mind](http://eventedmind.com)'s Chris Mather shows how to integrate the [Packery](http://packery.metafizzy.co) jQuery library in a Meteor app. ",
+    description: '[Evented Mind](http://eventedmind.com)\'s Chris Mather shows how to integrate the [Packery](http://packery.metafizzy.co) jQuery library in a Meteor app. ',
     resources: [
       {
         title: 'Code on GitHub',
@@ -157,7 +153,7 @@ videosContent = [
     title: 'Testing Microscope',
     slug: 'testing-microscope',
     type: 'Screencast',
-    description:  "Arunoda Susiripala shows us how to use Laika to test Microscope. <br/> **Note**: make sure you watch [part 1](http://www.discovermeteor.com/2013/06/06/testing-meteor-apps-with-laika/) on our blog first.",
+    description: 'Arunoda Susiripala shows us how to use Laika to test Microscope. <br/> **Note**: make sure you watch [part 1](http://www.discovermeteor.com/2013/06/06/testing-meteor-apps-with-laika/) on our blog first.',
     resources: [
       {
         title: 'Code on GitHub',
@@ -179,7 +175,7 @@ videosContent = [
     title: 'The Livedata Server',
     slug: 'live-data-server',
     type: 'Screencast',
-    description:  "Chris Mather takes a look at the performance characteristics of Meteor's core, the Livedata Server",
+    description: "Chris Mather takes a look at the performance characteristics of Meteor's core, the Livedata Server",
     resources: [
       {
         title: 'App Code on GitHub',
@@ -194,5 +190,7 @@ videosContent = [
         url: 'https://github.com/dannycoates/node-inspector'
       }
     ]
-  }       
-];
+  }
+]
+
+export { videosContent }
